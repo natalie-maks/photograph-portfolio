@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
     <title>Homepage</title>
   </head>
   <body>
@@ -21,7 +28,57 @@
         Real estate and architectural photographs <br />
         for your business and projects
       </h2>
-      <a href="">Get started</a>
+      <a href="#" class="btn-primary">Get started</a>
+    </div>
+    <div class="container">
+      <p class="homepage-question">
+        What photography <br />
+        are you interested in?
+      </p>
+      <div class="d-flex justify-content-center">
+        <a href="#" class="btn-secondary me-5">Architectural</a>
+        <a href="#" class="btn-secondary ms-5">Real-estate</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-7 pe-5">
+          <h3>Architectural Photography</h3>
+          <p>
+            Looking for an expirienced architectural photograper? Here I am to
+            help you with you concerns. My portfolio includes photographs of
+            modern and contemporary architecture, homes, offices, or other
+            lived-in buildings, architectural details, interiors, and exteriors.
+          </p>
+          <div class="d-flex">
+            <a href="#" class="btn-secondary me-5">Contact me</a>
+            <a href="#" class="btn-secondary">Visit gallery</a>
+          </div>
+        </div>
+        <div class="col-5">
+          <img src="/images/arch1.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <img src="/images/estate1.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-7 ps-5">
+          <h3>Real-estate Photography</h3>
+          <p>
+            Searching for real-estate photographer who has experience in both
+            interior and exterior photography? Want to have photos that will
+            sell the house? You are at the right place! The living room,
+            kitchen, dining area, master bedroom, bath, etc. will look perfect.
+          </p>
+          <div class="d-flex">
+            <a href="#" class="btn-secondary me-5">Contact me</a>
+            <a href="#" class="btn-secondary">Visit gallery</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
