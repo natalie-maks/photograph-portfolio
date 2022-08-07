@@ -64,7 +64,7 @@ a {
   font-weight: bold;
   color: #000;
   background: #fff;
-  width: 227px;
+  width: 246px;
   text-align: center;
   border: 1.5px solid #fff;
   padding: 20px 50px;
@@ -75,6 +75,7 @@ a {
 
 .btn-primary:hover {
   color: #000;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.75);
 }
 
 .btn-secondary {
@@ -114,4 +115,39 @@ h3 {
   font-size: 73px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+  .homepage-question {
+    font-size: 38px;
+  }
+
+  div a {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  h3 {
+    padding-top: 20px;
+  }
+
+  p {
+    margin: 20px 0 30px;
+  }
+
+  .container {
+    height: auto;
+    padding-top: 180px;
+  }
 }
