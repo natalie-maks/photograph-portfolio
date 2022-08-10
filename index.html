@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -21,6 +21,19 @@
     <title>Homepage</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <nav class="container d-flex justify-content-between align-items-center">
+        <a href="/" class="d-none d-sm-block name" title="Jane Dylan Website"
+          >JANE DYLAN</a
+        >
+        <div>
+          <a href="/" class="active-link" title="Homepage">HOME</a>
+          <a href="/about.html" title="About page">ABOUT</a>
+          <a href="/gallery.html" title="Photographs gallery">GALLERY</a>
+          <a href="/contact.html" title="Contact page">CONTACT</a>
+        </div>
+      </nav>
+    </div>
     <div class="hero">
       <p>Jane Dylan</p>
       <h1>Photography</h1>
@@ -30,17 +43,17 @@
       </h2>
       <a href="#" class="btn-primary">Get started</a>
     </div>
-    <div class="container">
+    <div class="container full">
       <p class="homepage-question">
         What photography <br />
         are you interested in?
       </p>
-      <div class="d-block d-sm-flex justify-content-center">
+      <div class="d-block d-sm-flex justify-content-center links">
         <a href="#architectural" class="btn-secondary me-sm-5">Architectural</a>
         <a href="#real-estate" class="btn-secondary ms-sm-5">Real-estate</a>
       </div>
     </div>
-    <div class="container" id="architectural">
+    <div class="container full" id="architectural">
       <div class="row">
         <div class="col-sm-5 d-sm-none">
           <img src="/images/arch1.jpg" class="img-fluid" alt="" />
@@ -53,7 +66,7 @@
             modern and contemporary architecture, homes, offices, or other
             lived-in buildings, architectural details, interiors, and exteriors.
           </p>
-          <div class="d-block d-sm-flex">
+          <div class="d-block d-sm-flex links">
             <a href="#" class="btn-secondary me-sm-5">Contact me</a>
 
             <a href="#" class="btn-secondary">Visit gallery</a>
@@ -64,7 +77,7 @@
         </div>
       </div>
     </div>
-    <div class="container" id="real-estate">
+    <div class="container full" id="real-estate">
       <div class="row">
         <div class="col-sm-5">
           <img src="/images/estate1.jpg" class="img-fluid" alt="" />
@@ -77,7 +90,7 @@
             sell the house? You are at the right place! The living room,
             kitchen, dining area, master bedroom, bath, etc. will look perfect.
           </p>
-          <div class="d-block d-sm-flex">
+          <div class="d-block d-sm-flex links">
             <a href="#" class="btn-secondary me-sm-5">Contact me</a>
             <a href="#" class="btn-secondary">Visit gallery</a>
           </div>
