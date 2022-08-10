@@ -74,7 +74,7 @@ a {
 }
 
 .btn-primary:hover {
-  color: #000;
+  color: var(--accent-color);
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.75);
 }
 
@@ -209,6 +209,19 @@ nav div a {
 
 .active-link {
   border-bottom: 2px solid var(--accent-color);
+}
+
+footer {
+  height: 65px;
+}
+
+footer a {
+  color: #fff;
+  padding: 0 25px;
+}
+
+footer a:hover {
+  color: var(--accent-color);
 }
 
 @media (max-width: 576px) {
