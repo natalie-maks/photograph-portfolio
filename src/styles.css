@@ -133,7 +133,7 @@ a {
 
 .contact h1 {
   font-size: 70px;
-  padding: 100px 0 50px;
+  padding: 100px 0 30px;
 }
 
 .contact p {
@@ -163,7 +163,7 @@ a {
   color: var(--accent-color);
   text-transform: uppercase;
   font-weight: 500;
-  padding: 0 0 30px;
+  padding: 0 0 20px;
   margin: 0;
 }
 
@@ -240,6 +240,30 @@ footer a:hover {
   color: var(--accent-color);
 }
 
+.arrow {
+  width: 65px;
+  height: 65px;
+  background: #fff;
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+  border-radius: 3px 3px 0 0;
+}
+
+.arrow a {
+  color: var(--primary-color);
+  font-size: 45px;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 42px;
@@ -282,7 +306,7 @@ footer a:hover {
 
   .contact h1 {
     font-size: 40px;
-    padding: 130px 0 25px;
+    padding: 130px 0 50px;
   }
 
   .padding-180 {
