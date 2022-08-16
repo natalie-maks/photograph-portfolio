@@ -223,6 +223,19 @@ footer a:hover {
   font-size: 28px;
 }
 
+small {
+  font-family: monospace;
+  text-align: center;
+  background: var(--secondary-color);
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+}
+
+small a:hover {
+  color: var(--accent-color);
+}
+
 @media (max-width: 1199px) {
   .about h1 {
     padding: 20px 0 0;
