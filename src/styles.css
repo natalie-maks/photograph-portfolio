@@ -10,34 +10,16 @@ body {
   color: white;
 }
 
-h1,
-h2,
-h3,
-p {
-  font-family: "Roboto", sans-serif;
+.full {
+  height: 100vh;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
-  padding: 0;
+.padding-180 {
+  padding-top: 180px;
 }
 
-h3 {
-  text-transform: uppercase;
-  font-size: 35px;
-}
-
-p {
-  padding: 30px 0 50px;
-  margin: 0;
-  text-align: justify;
-  font-size: 18px;
-}
-
-a {
-  font-family: "Montserrat", sans-serif;
+.container-fluid {
+  background: var(--secondary-color);
 }
 
 .hero {
@@ -47,83 +29,8 @@ a {
   text-align: center;
 }
 
-.hero h1 {
-  text-transform: uppercase;
-  font-size: 90px;
-  line-height: 1;
-  margin: 25px 0;
-  padding: 0;
-}
-
-.hero h2 {
-  font-weight: 400;
-  font-size: 22px;
-  padding: 0;
-  margin: 0 0 60px;
-}
-
-.hero p {
-  padding: 150px 0 0;
-  font-weight: 500;
-  font-size: 45px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.btn-primary {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #000;
-  background: #fff;
-  width: 246px;
-  text-align: center;
-  border: 1.5px solid #fff;
-  padding: 20px 50px;
-  border-radius: 40px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  transition: all 150ms ease-in-out;
-}
-
-.btn-primary:hover {
-  color: var(--accent-color);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.75);
-}
-
-.btn-secondary {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-  width: 246px;
-  text-align: center;
-  border: 1.5px solid #fff;
-  padding: 20px 50px;
-  border-radius: 40px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  transition: all 150ms ease-in-out;
-}
-
-.btn-secondary:hover {
-  color: #000;
-  background: #fff;
-}
-
-.full {
-  height: 100vh;
-}
-
-.padding-180 {
-  padding-top: 180px;
-}
-
-.homepage-question {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 73px;
-  font-weight: 500;
-  line-height: 1.2;
+.gallery {
+  padding: 50px 0;
 }
 
 .contact {
@@ -131,62 +38,91 @@ a {
   height: calc(100vh - 65px);
 }
 
-.contact h1 {
+.view {
+  height: 60vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
   font-size: 70px;
-  padding: 100px 0 30px;
 }
 
-.contact p {
-  text-align: center;
-  font-size: 26px;
-  padding-top: 0;
+h3 {
+  font-size: 35px;
 }
 
-.icon {
-  font-size: 28px;
+p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 30px 0 50px;
+  text-align: justify;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 90px;
+  line-height: 1;
+  margin: 25px 0;
+}
+
+.hero h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 60px;
+}
+
+.hero p {
+  font-size: 45px;
+  padding: 150px 0 0;
+}
+
+.homepage-question {
+  font-size: 73px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .about h1 {
   font-size: 55px;
-  padding: 20px 0;
-  margin: 0;
+  padding: 40px 0 20px;
 }
 
 .about h2 {
   font-size: 40px;
-  text-transform: uppercase;
-  margin: 0;
+}
+
+.contact h1 {
+  padding: 100px 0 30px;
+}
+
+.contact p {
+  font-size: 26px;
 }
 
 .accent {
   font-size: 30px;
   color: var(--accent-color);
-  text-transform: uppercase;
   font-weight: 500;
-  padding: 0 0 20px;
-  margin: 0;
-}
-
-.social-links {
-  padding: 0 0 70px;
-}
-
-.view {
-  height: 60vh;
-}
-
-.gallery h1 {
-  font-size: 70px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.gallery {
-  padding: 50px 0;
-}
-
-.container-fluid {
-  background: var(--secondary-color);
+  padding: 0;
 }
 
 nav {
@@ -194,37 +130,24 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
 
-nav a:hover {
-  color: #fff;
+nav div a {
+  margin-left: 13px;
+  font-weight: 500;
 }
-
 nav div a:hover {
   border-bottom: 2px solid var(--accent-color);
 }
 
 nav .name {
   font-size: 23px;
-  font-weight: bold;
-}
-
-nav div a {
-  margin-left: 13px;
 }
 
 .active-link {
   border-bottom: 2px solid var(--accent-color);
-}
-
-.social-links a {
-  color: #fff;
-  padding-right: 10px;
 }
 
 footer {
@@ -232,7 +155,6 @@ footer {
 }
 
 footer a {
-  color: #fff;
   padding: 0 25px;
 }
 
@@ -240,11 +162,36 @@ footer a:hover {
   color: var(--accent-color);
 }
 
+.btn-primary,
+.btn-secondary {
+  width: 246px;
+  text-align: center;
+  border: 1.5px solid #fff;
+  padding: 20px 50px;
+  border-radius: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: all 150ms ease-in-out;
+}
+
+.btn-primary {
+  color: #000;
+  background: #fff;
+}
+
+.btn-primary:hover {
+  color: var(--accent-color);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.75);
+}
+
+.btn-secondary:hover {
+  color: #000;
+  background: #fff;
+}
+
 .arrow {
   width: 65px;
   height: 65px;
   background: #fff;
-
   text-align: center;
   margin: 0;
   padding: 0;
@@ -264,49 +211,21 @@ footer a:hover {
   opacity: 1;
 }
 
+.social-links {
+  padding: 0 0 70px;
+}
+
+.social-links a {
+  padding-right: 15px;
+}
+
+.icon {
+  font-size: 28px;
+}
+
 @media (max-width: 576px) {
-  .hero h1 {
-    font-size: 42px;
-  }
-
-  .hero h2 {
-    font-size: 15px;
-  }
-
-  .hero p {
-    font-size: 26px;
-    padding-top: 180px;
-  }
-  .homepage-question {
-    padding-top: 180px;
-    font-size: 40px;
-  }
-
-  div.links a {
-    display: block;
-    margin: 0 auto 20px;
-  }
-
-  h3 {
-    padding-top: 20px;
-  }
-
   .full {
     height: auto;
-  }
-
-  nav div {
-    width: 100%;
-    text-align: center;
-  }
-
-  nav div a {
-    font-size: 14px;
-  }
-
-  .contact h1 {
-    font-size: 40px;
-    padding: 130px 0 50px;
   }
 
   .padding-180 {
@@ -318,20 +237,65 @@ footer a:hover {
     padding-bottom: 50px;
   }
 
-  .about {
+  nav div {
+    width: 100%;
     text-align: center;
-    padding-bottom: 180px;
+  }
+
+  nav div a {
+    font-size: 14px;
+  }
+
+  div.links a {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .hero h1,
+  .contact h1,
+  .homepage-question {
+    font-size: 40px;
   }
 
   .about h1 {
     padding: 20px 0 0px;
   }
 
-  .accent {
-    text-align: center;
-  }
-
   .gallery h1 {
     font-size: 50px;
+  }
+
+  .contact h1 {
+    padding: 130px 0 50px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+  }
+
+  .hero p {
+    font-size: 26px;
+    padding-top: 180px;
+  }
+
+  .homepage-question {
+    padding-top: 180px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    padding-top: 20px;
+  }
+
+  .about {
+    text-align: center;
+    padding-bottom: 180px;
+  }
+
+  .accent {
+    text-align: center;
   }
 }
